@@ -1,12 +1,16 @@
 [
-    {
-        "command": "workbench.view.scm",
-        "key": "cmd+shift+g",
-        "when": "workbench.scm.active"
-    },
-    {
-        "command": "editor.action.jumpToBracket",
-        "key": "cmd+e",
-        "when": "editorTextFocus"
-    }
+  {
+    "command": "workbench.view.scm",
+    "key": "cmd+shift+g",
+    "when": "workbench.scm.active"
+  },
+  {
+    "command": "editor.action.jumpToBracket",
+    "key": "cmd+e",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+n",
+    "command": "extension.advancedNewFile"
+  }
 ]

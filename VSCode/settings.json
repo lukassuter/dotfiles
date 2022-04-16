@@ -1,4 +1,12 @@
 {
+  "advancedNewFile.exclude": {
+    "node_modules": true,
+    "node_modules_electron": true,
+    "dev": true,
+    "dist": true
+  },
+  "advancedNewFile.showInformationMessages": true,
+  "advancedNewFile.convenienceOptions": ["last", "current", "root"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -16,5 +24,8 @@
     "Phong",
     "swegon",
     "texturecoordinate"
-  ]
+  ],
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }

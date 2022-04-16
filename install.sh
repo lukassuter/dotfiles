@@ -29,11 +29,11 @@ for file in ${files}; do
     ln -sf ${dotfiledir}/.${file} ${homedir}/.${file}
 done
 
-# Download Git Auto-Completion
-curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" > ${homedir}/.git-completion.bash
-
 # Run the Homebrew Script
 ./brew.sh
 
-# Run the Sublime Script
-./sublime.sh
+# Run the VS Code Script
+./vscode.sh
+
+# Run the Rider Script
+./rider.sh
