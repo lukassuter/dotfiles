@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 # Install Brew Packages
 brew install node
 brew install git
@@ -26,4 +25,5 @@ brew install --cask spectacle
 brew install --cask calibre
 brew install --cask vlc
 
+# Missing at Brew
 # Stats.app
