@@ -6,7 +6,7 @@
 	defaultBranch = master
 [core]
 	autocrlf = input
-	# editor = nvim
+	editor = vscode
 	# whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 	# pager = delta
 [sendemail]
