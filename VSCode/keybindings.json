@@ -1,12 +1,12 @@
 [
     {
-        "key": "cmd+shift+g",
         "command": "workbench.view.scm",
+        "key": "cmd+shift+g",
         "when": "workbench.scm.active"
     },
     {
-        "key": "cmd+e",
         "command": "editor.action.jumpToBracket",
+        "key": "cmd+e",
         "when": "editorTextFocus"
     }
 ]
