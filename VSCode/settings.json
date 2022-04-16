@@ -1,0 +1,30 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "cSpell.userWords": [
+        "Fieldname",
+        "icproductsstoragedev",
+        "imagetexture",
+        "indexedfaceset",
+        "Kfactors",
+        "lineset",
+        "nocheck",
+        "Phong",
+        "swegon",
+        "texturecoordinate"
+    ],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay"
+}
