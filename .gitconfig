@@ -1,13 +1,17 @@
 [user]
-	name = Lukas Suter
-	email = lukas.suter@swegon.com
-	username = lukassuter
+name = Lukas Suter
+email = lukas.suter@swegon.com
+username = lukassuter
+
 [init]
-	defaultBranch = master
+defaultBranch = master
+
 [core]
-	autocrlf = input
-	editor = code
+autocrlf = input
+editor = code
+
 [diff]
-	tool = code
+tool = code
+
 [difftool]
-	prompt = false
+prompt = false
