@@ -9,11 +9,11 @@ homedir=$1
 
 dotfiledir=${homedir}/dotfiles
 
-files="bash_profile bashrc bash_prompt aliases private"
+files=".gitconfig .gitconfig .zshrc"
 
 echo "Changing to the ${dotfiledir} directory"
 cd ${dotfiledir}
-echo "...done"
+echo "Done"
 
 for file in ${files}; do
     echo "Creating symlink to $file in home directory."
@@ -54,7 +54,12 @@ ln -s ~/../lukassuter/.dotfiles/VSCode/keybindings.json ~/../lukassuter/Library/
 ln -s ~/../lukassuter/.dotfiles/VSCode/snippets/ ~/../lukassuter/Library/Application\ Support/Code/User
 
 # VS Code Extensions
-vscodeextensions="aaron-bond.better-comments cssho.vscode-svgviewer dbaeumer.vscode-eslint dzhavat.bracket-pair-toggler eamodio.gitlens esbenp.prettier-vscode formulahendry.auto-rename-tag foxundermoon.shell-format ms-dotnettools.csharp ms-vscode.vscode-typescript-tslint-plugin patbenatar.advanced-new-file redhat.vscode-xml richie5um2.vscode-sort-json streetsidesoftware.code-spell-checker Tyriar.sort-lines vscode-icons-team.vscode-icons wmaurer.change-case"
+vscodeextensions="aaron-bond.better-comments cssho.vscode-svgviewer dbaeumer.vscode-eslint dzhavat.bracket-pair-toggler eamodio.gitlens esbenp.prettier-vscode formulahendry.auto-rename-tag foxundermoon.shell-format ms-dotnettools.csharp patbenatar.advanced-new-file redhat.vscode-xml richie5um2.vscode-sort-json streetsidesoftware.code-spell-checker Tyriar.sort-lines vscode-icons-team.vscode-icons wmaurer.change-case"
+
+for vscodeextension in ${vscodeextensions}; do
+    echo "Installing $vscodeextension extension to VS Code"
+    code --install-extension ${vscodeextension}
+done
 
 # Rider Symbolic
 ln -s ~/../lukassuter/.dotfiles/Rider/GlobalSettingsStorage.DotSettings ~/../lukassuter/Library/Application\ Support/JetBrains/Rider2021.3/resharper-host

@@ -10,7 +10,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+n",
+    "key": "cmd+shift+n",
     "command": "extension.advancedNewFile"
   }
 ]
