@@ -1,7 +1,12 @@
 [user]
 name = Lukas Suter
-email = lukas.suter@swegon.com
 username = lukassuter
+email = lukas@pelag.io
+
+[includeIf "gitdir:~/repos/swegon/"]
+path = ~/repos/swegon/.gitconfig
+[includeIf "gitdir:~/repos/projects/"]
+path = ~/repos/projects/.gitconfig
 
 [init]
 defaultBranch = master
