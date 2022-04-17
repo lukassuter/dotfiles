@@ -24,7 +24,7 @@ done
 # Packages
 brew install node
 brew install git
-brew install openconnect
+brew install nvm
 
 # MacOS Applications
 brew install --cask 1password
