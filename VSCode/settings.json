@@ -25,8 +25,5 @@
     "Phong",
     "swegon",
     "texturecoordinate"
-  ],
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  ]
 }
