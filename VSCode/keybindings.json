@@ -12,5 +12,13 @@
   {
     "key": "cmd+shift+n",
     "command": "extension.advancedNewFile"
+  },
+  {
+    "key": "alt+cmd+j",
+    "command": "merge-conflict.next"
+  },
+  {
+    "key": "alt+cmd+h",
+    "command": "merge-conflict.previous"
   }
 ]

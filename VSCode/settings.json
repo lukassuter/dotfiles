@@ -1,47 +1,39 @@
 {
-  "advancedNewFile.exclude": {
-    "node_modules": true,
-    "node_modules_electron": true,
-    "dev": true,
-    "dist": true
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 1,
+  "versionlens.suggestions.showOnStartup": true,
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "eslint.lintTask.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "jsonc",
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": ["document"]
   },
   "advancedNewFile.showInformationMessages": true,
+  "advancedNewFile.exclude": {
+    "node_modules_electron": true,
+    "node_modules": true,
+    "dist": true,
+    "dev": true
+  },
   "advancedNewFile.convenienceOptions": ["last", "current", "root"],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "files.autoSave": "afterDelay",
-  "workbench.iconTheme": "vscode-icons",
-  "eslint.lintTask.enable": true,
-  "cSpell.userWords": [
-    "browserslist",
-    "commitlint",
-    "drei",
-    "esbenp",
-    "Fieldname",
-    "icproductsstoragedev",
-    "imagetexture",
-    "indexedfaceset",
-    "isovel",
-    "Kfactors",
-    "lineset",
-    "Lukas",
-    "nocheck",
-    "Parens",
-    "Phong",
-    "stdlib",
-    "stylelint",
-    "swegon",
-    "texturecoordinate"
-  ],
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[properties]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[ignore]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+  "editor.formatOnPaste": false,
+  "files.associations": {
+    "*.json": "jsonc",
+    ".prettierrc": "jsonc"
   }
 }
