@@ -7,17 +7,19 @@ fi
 
 homedir=$1
 
-dotfiledir=${homedir}/dotfiles
+dotfiledir=~/.dotfiles
 
-files=".gitconfig .gitconfig .zshrc"
+files=".gitconfig .zshrc"
 
 echo "Changing to the ${dotfiledir} directory"
 cd ${dotfiledir}
 echo "Done"
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 for file in ${files}; do
     echo "Creating symlink to $file in home directory."
-    ln -s ${dotfiledir}/.${file} ${homedir}/.${file}
+    ln -s ${dotfiledir}/${file} ~/${file}
 done
 
 # Brew

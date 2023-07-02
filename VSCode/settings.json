@@ -1,7 +1,7 @@
 {
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "vscode-icons",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "versionlens.suggestions.showOnStartup": true,
   "git.autofetch": true,
   "explorer.confirmDragAndDrop": false,
@@ -35,5 +35,8 @@
   "files.associations": {
     "*.json": "jsonc",
     ".prettierrc": "jsonc"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   }
 }
