@@ -42,6 +42,7 @@ brew install --cask insomnia
 brew install --cask spectacle
 brew install --cask calibre
 brew install --cask vlc
+brew install --cask messenger
 
 # VS Code Symbolic
 ln -s ~/../lukassuter/.dotfiles/VSCode/settings.json ~/../lukassuter/Library/Application\ Support/Code/User/settings.json
