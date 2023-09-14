@@ -1,7 +1,7 @@
 [user]
 name = Lukas Suter
 username = lukassuter
-email = lukas@pelag.io
+email = lukas.suter@swegon.com
 
 [includeIf "gitdir:~/repos/swegon/"]
 path = ~/repos/swegon/.gitconfig
