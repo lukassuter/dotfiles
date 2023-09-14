@@ -20,29 +20,31 @@ done
 brew install node
 brew install git
 brew install nvm
+brew install mkcert
 
 # MacOS Applications
 brew install --cask 1password
-brew install --cask docker
-brew install --cask microsoft-azure-storage-explorer
-brew install --cask spotify
-brew install --cask firefox
-brew install --cask microsoft-remote-desktop
-brew install --cask rider
 brew install --cask alfred
-brew install --cask franz
-brew install --cask microsoft-teams
 brew install --cask azure-data-studio
-brew install --cask google-chrome
-brew install --cask notion
-brew install --cask sketchup
-brew install --cask sketchup-pro
-brew install --cask visual-studio-code
-brew install --cask insomnia
-brew install --cask spectacle
 brew install --cask calibre
-brew install --cask vlc
+brew install --cask docker
+brew install --cask figma
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask google-drive
 brew install --cask messenger
+brew install --cask microsoft-azure-storage-explorerci
+brew install --cask microsoft-teams
+brew install --cask postman
+brew install --cask rider
+brew install --cask spectacle
+brew install --cask spotify
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install --cask whatsapp
+brew install --cask plex-media-server
+brew install --cask signal
+brew install --cask slack
 
 # VS Code Symbolic
 ln -s ~/../lukassuter/.dotfiles/VSCode/settings.json ~/../lukassuter/Library/Application\ Support/Code/User/settings.json
