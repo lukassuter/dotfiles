@@ -1,8 +1,6 @@
 {
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "vscode-icons",
-  "window.zoomLevel": 0,
-  "versionlens.suggestions.showOnStartup": true,
   "git.autofetch": true,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -15,7 +13,7 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "[json]": {
-    "editor.defaultFormatter": "jsonc",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.quickSuggestions": {
       "strings": true
     },
@@ -39,8 +37,18 @@
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "cSpell.userWords": ["Swegon"],
+  "cSpell.userWords": ["Newtonsoft", "promaster", "Swegon"],
   "[properties]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "gitlens.rebase"
+  },
+  "versionlens.suggestions.showOnStartup": true
 }
