@@ -1,19 +1,14 @@
-[user]
+ [user]
 name = Lukas Suter
 username = lukassuter
 email = lukas.suter@swegon.com
 
-[includeIf "gitdir:~/repos/swegon/"]
-path = ~/repos/swegon/.gitconfig
-[includeIf "gitdir:~/repos/projects/"]
-path = ~/repos/projects/.gitconfig
-
 [init]
-defaultBranch = master
+defaultBranch = main
 
 [core]
-autocrlf = input
-editor = code
+	autocrlf = input
+editor = code --wait
 
 [diff]
 tool = code
