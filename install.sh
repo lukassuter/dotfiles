@@ -10,7 +10,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 
 # Brew MacOS Applications
-brew install --cask adobe-digital-editions
 brew install --cask alfred
 brew install --cask beeper
 brew install --cask calibre
