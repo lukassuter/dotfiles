@@ -6,7 +6,7 @@ echo "Changing to the ${dotfiledir} directory"
 cd ${dotfiledir}
 echo "Done"
 
-for file in .gitconfig .gitignore .zshrc; do
+for file in .gitconfig .gitignore .prettierrc .zshrc; do
     echo "Creating symlink to $file in home directory."
     ln -s ${dotfiledir}/${file} ~/${file}
 done
