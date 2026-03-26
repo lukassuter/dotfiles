@@ -10,8 +10,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 
 # Brew MacOS Applications
+brew install --cask adobe-digital-editions
 brew install --cask alfred
+brew install --cask beeper
 brew install --cask calibre
+brew install --cask chatgpt
 brew install --cask docker
 brew install --cask docker-desktop
 brew install --cask dotnet
@@ -21,6 +24,7 @@ brew install --cask microsoft-azure-storage-explorer
 brew install --cask microsoft-remote-desktop
 brew install --cask microsoft-teams
 brew install --cask notion
+brew install --cask parallels
 brew install --cask postman
 brew install --cask spectacle
 brew install --cask spotify
