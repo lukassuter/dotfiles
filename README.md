@@ -4,6 +4,12 @@ My personal macOS dotfiles for setting up a new machine.
 
 ## New Machine Setup
 
+### Before setup: copy to the new computer
+
+- `repos`
+- `.npmrc` and `.nuget-folder`
+- `.microsoft/`
+
 ### 1. Install Homebrew
 
 ```bash
