@@ -16,7 +16,6 @@ brew install --cask docker
 brew install --cask docker-desktop
 brew install --cask dotnet
 brew install --cask dotnet-runtime
-brew install --cask google-chrome
 brew install --cask google-drive
 brew install --cask microsoft-azure-storage-explorer
 brew install --cask microsoft-remote-desktop
